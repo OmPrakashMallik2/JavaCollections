@@ -11,8 +11,6 @@ public class ArrayDeque1 {
         deque.add("four");
         deque.add("five");
 
-        for(String str : deque){
-            System.out.println(str);
-        }
+        System.out.println(deque);
     }
 }

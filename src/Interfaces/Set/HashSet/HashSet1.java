@@ -6,14 +6,14 @@ import java.util.Iterator;
 public class HashSet1 {
     public static void main(String[] args) {
         HashSet<String> hashSet = new HashSet<>();
-        hashSet.add("OPM");
-        hashSet.add("JPM");
-        hashSet.add("OPM");
-        hashSet.add("SKM");
-        hashSet.add("SKM");
+        hashSet.add("one");
+        hashSet.add("two");
+        hashSet.add("three");
+        hashSet.add("four");
+        hashSet.add("five");
 
-        Iterator itr = hashSet.iterator();
-        while(itr.hasNext()){
+        Iterator<String> itr = hashSet.iterator();
+        while (itr.hasNext()){
             System.out.println(itr.next());
         }
     }

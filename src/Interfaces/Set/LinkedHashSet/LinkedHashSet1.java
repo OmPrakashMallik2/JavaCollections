@@ -12,6 +12,8 @@ public class LinkedHashSet1 {
         linkedHashSet.add(10);
         linkedHashSet.add(11);
 
+        System.out.println(linkedHashSet);
+
         Iterator<Integer> itr = linkedHashSet.iterator();
         while(itr.hasNext()){
             System.out.println(itr.next());
