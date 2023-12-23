@@ -2,7 +2,7 @@ package Interfaces.Queue.Deque;
 
 import java.util.*;
 
-public class ArrayDeque {
+public class ArrayDeque1 {
     public static void main(String[] args) {
         Deque<String> deque = new java.util.ArrayDeque<>();
         deque.add("One");
